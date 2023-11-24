@@ -2,9 +2,9 @@
 
 > This is a simple example of a URL shortener service created using Express.js, for the purpose of learning.
 
-### Architecture
+## Architecture
 
-#### Generate Short URL
+### Generate Short URL
 
 ```mermaid
 sequenceDiagram
@@ -25,7 +25,7 @@ sequenceDiagram
     Note over Browser Client, URL Shortener Service: { shortID: agEH-jvH }
 ```
 
-#### Redirect to Original URL
+### Redirect to Original URL
 
 ```mermaid
 sequenceDiagram
@@ -44,7 +44,7 @@ sequenceDiagram
     Note over Browser Client, URL Shortener Service: https://mctechie.vercel.app
 ```
 
-#### Analytics
+### Analytics
 
 ```mermaid
 sequenceDiagram
@@ -64,7 +64,7 @@ sequenceDiagram
     Note over Browser Client, URL Shortener Service: Visit History, Number of Clicks, etc.
 ```
 
-### How to run
+## How to run
 
 > This project requires Node.js to run.
 
@@ -82,20 +82,20 @@ npm install
 npm start
 ```
 
-### Demo
+## Demo
 
-#### Client 1
+### Client 1
 
 ![Client 1](assets/client1.png)
 
-#### Client 2
+### Client 2
 
 ![Client 2](assets/client2.png)
 
-#### MongoDB
+### MongoDB
 
 ![MongoDB](assets/mongoDB.png)
 
-#### Analytics
+### Analytics
 
 ![Analytics](assets/analytics.png)
